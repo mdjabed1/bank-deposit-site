@@ -13,4 +13,6 @@ document.getElementById('submit-button').addEventListener('click', function () {
     if (userEmail == 'riponmia' && userPassword == '01777625480') {
         window.location.href = 'bank'
     }
+    localStorage.setItem('user-name', userEmail)
+    localStorage.setItem('user-password', userPassword)
 })
