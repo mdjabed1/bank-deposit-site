@@ -10,9 +10,4 @@ document.getElementById('submit-button').addEventListener('click', function () {
     if (userEmail == 'mdjabed234353@gmail.com' && userPassword == '01720395322') {
         window.location.href = 'bank'
     }
-    if (userEmail == 'riponmia' && userPassword == '01777625480') {
-        window.location.href = 'bank'
-    }
-    localStorage.setItem('user-name', userEmail)
-    localStorage.setItem('user-password', userPassword)
 })
